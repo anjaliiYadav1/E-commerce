@@ -1,0 +1,38 @@
+.checkout {
+    display: flex;
+    padding: 20 px;
+    background-color: white;
+    height: max-content;
+}
+
+.checkout__left {
+    flex:0.9;
+}
+
+.checkout__right {
+    flex:0.1;
+}
+
+.checkout__photo {
+    margin-top: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right:5px ;
+}
+
+.checkout__title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.checkout__credentials > h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+
+.checkout__credentials > h3 {
+   
+   
+}
