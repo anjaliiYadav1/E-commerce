@@ -475,3 +475,17 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
 [debug] [2022-07-05T16:35:01.402Z] [worker-us-central1-api-e908b798-0f17-4f68-8452-ac1eb5faa9de]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e908b798-0f17-4f68-8452-ac1eb5faa9de]: IDLE"}}
 [debug] [2022-07-05T16:35:01.403Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-07-05T16:55:46.455Z] Received signal SIGHUP 1
+[info]  
+[info] i  emulators: Received SIGHUP for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGHUP signal again to stop right now. 
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  ui: Stopping Emulator UI {"metadata":{"emulator":{"name":"ui"},"message":"Stopping Emulator UI"}}
+[warn] ⚠  Emulator UI has exited upon receiving signal: SIGINT 
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  hosting: Stopping Hosting Emulator {"metadata":{"emulator":{"name":"hosting"},"message":"Stopping Hosting Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2022-07-05T16:55:46.469Z] [worker-us-central1-api-e908b798-0f17-4f68-8452-ac1eb5faa9de]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e908b798-0f17-4f68-8452-ac1eb5faa9de]: exited"}}
+[debug] [2022-07-05T16:55:46.469Z] [worker-us-central1-api-e908b798-0f17-4f68-8452-ac1eb5faa9de]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e908b798-0f17-4f68-8452-ac1eb5faa9de]: FINISHED"}}
+[debug] [2022-07-05T16:55:46.469Z] [worker-us-central1-api-d18d17b0-b773-4763-a757-c9deff4f96ae]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-d18d17b0-b773-4763-a757-c9deff4f96ae]: exited"}}
+[debug] [2022-07-05T16:55:46.469Z] [worker-us-central1-api-d18d17b0-b773-4763-a757-c9deff4f96ae]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-d18d17b0-b773-4763-a757-c9deff4f96ae]: FINISHED"}}
