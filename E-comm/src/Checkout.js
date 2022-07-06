@@ -11,17 +11,6 @@ function Checkout() {
     <div className='checkout'>
         <div className = 'checkout__left'>
           
-           {/* 
-            <img className = 'checkout__photo'
-            src="https://m.media-amazon.com/images/I/61jovjd+f9L._SX3000_.jpg"
-            height='150px'
-            alt=""
-            
-          />
-           
-           
-           
-           */}
          
 
           <div className='checkout__credentials'>
